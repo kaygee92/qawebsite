@@ -31,7 +31,8 @@
 <!--End of navigation bar-->
 <!--End of header-->
 
-<p>
+<h2><strong>Software Testing Tools</strong></h2>
+<p> There are many different tools that trainees use in Quality Assurance. The trainee will be using Bugzilla and Selenium to learn about bug testing. The trainees learn about 
 <!--Navigation Bar-->
 <nav>
 <nav class="navigation">
@@ -50,5 +51,22 @@
 
 <!-- Footer-->
 <footer>
-&copy;2016 Copyright  All rights Reserved
+    <h1>Connect</h1>
+    <ul>
+        <li>
+            <a href="https://www.facebook.com/yearup/"><img src="images/fb_icon.png" height="25px" weight="25px"></a></li>
+            <br>
+        <li>
+    <a href="https://twitter.com/yearup"><img src="images/twitter-bird.jpg" height="25px" weight="25px"</a>
+        </li>
+            <br>
+            <li>
+                <a href="https://www.linkedin.com/company/year-up"><img src="images/linkedin.jpg" height="25px" weight="25px"</a></li><br>
+        <li>
+            <a href="https://www.youtube.com/user/YearUpInc"><img src="images/youtube.png" height="25px" weight="25px"></a></li>
+            <br>
+    </ul>
+    </p>
+&copy;2016 Copyright  All rights Reserved by Kristal Gallon<br>
+        <a href="mailto:kgallon@sfo.yearup.org">kgallon@sfo.yearup.com</a>
 </footer>
