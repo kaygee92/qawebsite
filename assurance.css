@@ -10,9 +10,24 @@
 	width: 100%;
 
 }
+.yearup {
+    text-align: center;
+}
 .navigation {
 	padding: 0px;
 	margin: 0px;
+}
+.partners{
+    text-align: center;
+}
+.fighter{
+    text-align: center;
+}
+.testing{
+    text-align: center;
+}
+.mods{
+    text-align: center;
 }
 .corporate partners {
     list-style: circle;
