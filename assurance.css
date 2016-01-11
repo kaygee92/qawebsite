@@ -17,13 +17,17 @@
 .corporate partners {
     list-style: circle;
     list-style-position: inside;
+    list-style-image: inherit;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    white-space: inherit;
 }
 h2{
     text-align: center;
 }
 ul li{
 	list-style-type: circle;
-	color:white;
+	color:black;
 	text-align: left;
     list-style-image: inherit;
 }
