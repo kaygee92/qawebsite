@@ -19,7 +19,7 @@
 <nav class="navigation">
 	<ul>
 	<li><a>Log In</a></li>
-	<li><a >Home</a></li>
+	<li><a href="index.html">Home</a></li>
 	<li><a href="year_up.html">Year Up</a></li>
 	<li><a href="modules.html">Modules</a></li>
 	<li><a href="corporate_partners.html">Corporate Partners</a></li>
@@ -30,15 +30,32 @@
 
 <!--End of navigation bar-->
 <!--End of header-->
+<form  action="login.php" autocomplete="on"> 
+     <h1>Log in</h1> 
+     <p> 
+          <label for="firstname" class="fname" data-icon="u" >First Name:</label>
+          <input id="firstname" name="firstname" required="required" type="text" placeholder="Firstname"/>
+     </p>
+     <p> 
+          <label for="email" class="email" data-icon="p">Email:</label>
+          <input id="email" name="email" required="email" type="email" placeholder="Email" /> 
+     </p>
+     <p class="keeplogin"> 
+          <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
+          <label for="loginkeeping">Keep me logged in</label>
+     </p>
+     <p class="login button"> 
+          <input type="submit" value="Login" /> 
+     </p>
+</form>
 
-<p>
 
 <!--Navigation Bar-->
 <nav>
 <nav class="navigation">
 	<ul>
 	<li><a>Log In</a></li>
-	<li><a >Home</a></li>
+	<li><a href="index.html">Home</a></li>
 	<li><a href="year_up.html">Year Up</a></li>
 	<li><a href="modules.html">Modules</a></li>
 	<li><a href="corporate_partners.html">Corporate Partners</a></li>

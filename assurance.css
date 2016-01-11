@@ -14,7 +14,9 @@
 	padding: 0px;
 	margin: 0px;
 }
-
+.images {
+    text-align: left;
+}
 h2{
     text-align: center;
 }
