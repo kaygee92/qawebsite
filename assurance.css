@@ -14,8 +14,9 @@
 	padding: 0px;
 	margin: 0px;
 }
-.images {
-    text-align: left;
+.corporate partners {
+    list-style: circle;
+    list-style-position: inside;
 }
 h2{
     text-align: center;
@@ -24,19 +25,23 @@ ul li{
 	list-style-type: circle;
 	color:white;
 	text-align: left;
+    list-style-image: inherit;
 }
 nav ul li {
   list-style-type: none;
   display: inline-block;
-  color: purple;
+  color: black;
   background-color: white;
   padding:5px 15px;
    
 }
 nav ul li a{
-  color: blue;
+  color:midnightblue;
 }
 p {
    float:inherit;
+   text-align: justify;
+   color: black;
+    
 }
     
