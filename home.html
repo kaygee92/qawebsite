@@ -30,26 +30,27 @@
 
 <!--End of navigation bar-->
 <!--End of header-->
-<form  action="login.php" autocomplete="on"> 
-     <h1>Log in</h1> 
-     <p> 
-          <label for="firstname" class="fname" data-icon="u" >First Name:</label>
-          <input id="firstname" name="firstname" required="required" type="text" placeholder="Firstname"/>
-     </p>
-     <p> 
-          <label for="email" class="email" data-icon="p">Email:</label>
-          <input id="email" name="email" required="email" type="email" placeholder="Email" /> 
-     </p>
-     <p class="keeplogin"> 
-          <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
-          <label for="loginkeeping">Keep me logged in</label>
-     </p>
-     <p class="login button"> 
-          <input type="submit" value="Login" /> 
-     </p>
+    <h1> Log In</h1>
+<form name="login">
+First Name<input type="text" name="first name"/>
+Email<input type="email" name="email"/>
+<input type="button" onclick="check(this.form)" value="Login"/>
+<input type="reset" value="Cancel"/>
 </form>
-
-
+<script language="javascript">
+function check(form)/*function to check userid & password*/
+{
+ /*the following code checkes whether the entered userid and password are matching*/
+ if(form.userid.value == "firstname" && form.pswrd.value == "myemail")
+  {
+    window.open('index.html')/*opens the target page while Id & password matches*/
+  }
+ else
+ {
+   alert("Error Email or Email")/*displays error message*/
+  }
+}
+    </script>
 <!--Navigation Bar-->
 <nav>
 <nav class="navigation">
